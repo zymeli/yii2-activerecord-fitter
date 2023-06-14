@@ -1,0 +1,25 @@
+{
+    "name": "zymeli/yii2-activerecord-fitter",
+    "description": "Sync ActiveRecord changes to other table.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zyme Li",
+            "email": "710055@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "yiisoft/yii2": "~2.0.6",
+    },
+    "autoload": {
+        "psr-4": {
+            "zymeli\\ActiveRecordFitter\\": "src"
+        }
+    },
+	"extra": {
+		"bootstrap": "zymeli\\ActiveRecordFitter\\Bootstrap"
+	}
+}
