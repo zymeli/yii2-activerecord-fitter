@@ -19,7 +19,22 @@
             "zymeli\\ActiveRecordFitter\\": "src"
         }
     },
-	"extra": {
-		"bootstrap": "zymeli\\ActiveRecordFitter\\Bootstrap"
-	}
+    "extra": {
+        "bootstrap": "zymeli\\ActiveRecordFitter\\Bootstrap"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
